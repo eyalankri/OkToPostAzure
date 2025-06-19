@@ -20,7 +20,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     ############################################
-    # 1️⃣ בדיקות מחוץ לדוקר
+    # 1️⃣ בדיקות מחוץ לדוקר.
     ############################################
 
     - name: 🔄 Restore dependencies
@@ -30,7 +30,7 @@ jobs:
       run: dotnet build --no-restore --configuration Release
 
     - name: 🧪 Run unit tests outside Docker
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --configuration Release --verbosity normal
 
     ############################################
     # 🔧 התקנת Docker Compose
@@ -48,6 +48,8 @@ jobs:
 
     - name: 🐳 Build and start containers
       run: docker-compose -f docker-compose.yml up -d --build
+      env:
+        SA_PASSWORD: ${{ secrets.SA_PASSWORD }}
 
     - name: ⏱️ Wait for services to initialize
       run: sleep 30
