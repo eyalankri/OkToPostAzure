@@ -1,0 +1,8 @@
+services:
+  app:
+    image: eyalankri/oktopost-api:latest
+    container_name: oktopost-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:80"

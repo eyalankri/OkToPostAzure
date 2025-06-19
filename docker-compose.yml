@@ -22,9 +22,7 @@ services:
       - backend
 
   app:
-    build:
-      context: .
-      dockerfile: OkToPost/Dockerfile
+    image: eyalankri/oktopost-api:latest
     container_name: oktopost-api
     depends_on:
       - db
