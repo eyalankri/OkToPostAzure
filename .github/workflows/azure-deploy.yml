@@ -22,4 +22,5 @@ jobs:
       with:
         app-name: oktopost-api
         slot-name: production
-        configuration-file: docker-compose.azure.yml
+        configuration-file: docker-compose-azure.yml
+

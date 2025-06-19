@@ -3,6 +3,37 @@ services:
     image: eyalankri/oktopost-api:latest
     container_name: oktopost-api
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
+      - SA_PASSWORD=${SA_PASSWORD}
     ports:
       - "8080:80"
+    depends_on:
+      - db
+      - redis
+    networks:
+      - backend
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: ${SA_PASSWORD}
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - backend
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - backend
+
+volumes:
+  sqlserver-data:
+
+networks:
+  backend:
