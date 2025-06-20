@@ -47,7 +47,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+if (!app.Environment.IsProduction()) // for azure
+{
+    app.UseHttpsRedirection();
+}
+
 app.UseAuthorization();
 app.MapControllers();
 app.MapGet("/", () => "API is alive. go to: http://localhost:8080/swagger/");
