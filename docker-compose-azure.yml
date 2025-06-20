@@ -5,6 +5,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - SA_PASSWORD=${SA_PASSWORD}
+      - Redis=redis:6379
     ports:
       - "8080:80"
     depends_on:
