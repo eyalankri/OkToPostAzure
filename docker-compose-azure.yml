@@ -6,23 +6,11 @@ services:
       - ASPNETCORE_ENVIRONMENT=Production
       - SA_PASSWORD=${SA_PASSWORD}
       - Redis=redis:6379
+      - ConnectionStrings__DefaultConnection=Server=tcp:oktopos.database.windows.net,1433;Initial Catalog=OkToPost;Persist Security Info=False;User ID=eyalankri;Password=Eyal$1q2w!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
     ports:
       - "8080:80"
     depends_on:
-      - db
       - redis
-    networks:
-      - backend
-
-  db:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    environment:
-      SA_PASSWORD: ${SA_PASSWORD}
-      ACCEPT_EULA: "Y"
-    ports:
-      - "1433:1433"
-    volumes:
-      - sqlserver-data:/var/opt/mssql
     networks:
       - backend
 

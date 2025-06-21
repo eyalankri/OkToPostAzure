@@ -1,0 +1,593 @@
+Connected!
+2025-06-20T16:37:28.396887467Z  SQL Server 2022 will run as non-root by default.
+2025-06-20T16:37:28.397895574Z  This container is running as user mssql.
+2025-06-20T16:37:28.397912674Z  To learn more visit https://go.microsoft.com/fwlink/?linkid=2099216.
+2025-06-20T16:37:36.854425400Z  2025-06-20 16:37:36.75 Server      Setup step is copying system data file 'C:\templatedata\master.mdf' to '/var/opt/mssql/data/master.mdf'.
+2025-06-20T16:37:36.884562023Z  
+2025-06-20 16:37:36.91 Server      Did not find an existing master data file /var/opt/mssql/data/master.mdf, copying the missing default master and other system database files. If you have moved the database location, but not moved the database files, startup may fail. To repair: shutdown SQL Server, move the master database to configured location, and restart.
+2025-06-20T16:37:36.892843784Z  
+2025-06-20 16:37:36.92 Server      Setup step is copying system data file 'C:\templatedata\mastlog.ldf' to '/var/opt/mssql/data/mastlog.ldf'.
+2025-06-20T16:37:36.902784057Z  
+2025-06-20 16:37:36.94 Server      Setup step is copying system data file 'C:\templatedata\model.mdf' to '/var/opt/mssql/data/model.mdf'.
+2025-06-20T16:37:36.933761286Z  
+2025-06-20 16:37:36.98 Server      Setup step is copying system data file 'C:\templatedata\modellog.ldf' to '/var/opt/mssql/data/modellog.ldf'.
+2025-06-20T16:37:36.968874345Z  
+2025-06-20 16:37:37.02 Server      Setup step is copying system data file 'C:\templatedata\msdbdata.mdf' to '/var/opt/mssql/data/msdbdata.mdf'.
+2025-06-20T16:37:37.041188080Z  
+2025-06-20 16:37:37.13 Server      Setup step is copying system data file 'C:\templatedata\msdblog.ldf' to '/var/opt/mssql/data/msdblog.ldf'.
+2025-06-20T16:37:37.050803751Z  
+2025-06-20 16:37:37.14 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_replicatedmaster.mdf' to '/var/opt/mssql/data/model_replicatedmaster.mdf'.
+2025-06-20T16:37:37.073661320Z  
+2025-06-20 16:37:37.16 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_replicatedmaster.ldf' to '/var/opt/mssql/data/model_replicatedmaster.ldf'.
+2025-06-20T16:37:37.123962792Z  
+2025-06-20 16:37:37.23 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_msdbdata.mdf' to '/var/opt/mssql/data/model_msdbdata.mdf'.
+2025-06-20T16:37:37.172085348Z  
+2025-06-20 16:37:37.29 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_msdblog.ldf' to '/var/opt/mssql/data/model_msdblog.ldf'.
+2025-06-20T16:37:37.272593392Z  
+2025-06-20 16:37:37.44 Server      Microsoft SQL Server 2022 (RTM-CU19) (KB5054531) - 16.0.4195.2 (X64)
+2025-06-20T16:37:37.273141196Z  
+	Apr 18 2025 13:42:14
+2025-06-20T16:37:37.273655199Z  
+	Copyright (C) 2022 Microsoft Corporation
+2025-06-20T16:37:37.279207641Z  
+	Developer Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>
+2025-06-20T16:37:37.280843553Z  
+2025-06-20 16:37:37.45 Server      UTC adjustment: 0:00
+2025-06-20T16:37:37.282512165Z  
+2025-06-20 16:37:37.45 Server      (c) Microsoft Corporation.
+2025-06-20T16:37:37.282902268Z  
+2025-06-20 16:37:37.45 Server      All rights reserved.
+2025-06-20T16:37:37.289055313Z  
+2025-06-20 16:37:37.46 Server      Server process ID is 436.
+2025-06-20T16:37:37.290663525Z  
+2025-06-20 16:37:37.46 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2025-06-20T16:37:37.292140336Z  
+2025-06-20 16:37:37.47 Server      Registry startup parameters:
+2025-06-20T16:37:37.298276282Z  
+	 -d /var/opt/mssql/data/master.mdf
+2025-06-20T16:37:37.298813186Z  
+	 -l /var/opt/mssql/data/mastlog.ldf
+2025-06-20T16:37:37.299197288Z  
+	 -e /var/opt/mssql/log/errorlog
+2025-06-20T16:37:37.312255185Z  
+2025-06-20 16:37:37.49 Server      SQL Server detected 1 sockets with 4 cores per socket and 4 logical processors per socket, 4 total logical processors; using 4 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2025-06-20T16:37:37.318248629Z  
+2025-06-20 16:37:37.49 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2025-06-20T16:37:37.320573547Z  
+2025-06-20 16:37:37.50 Server      Detected 6106 MB of RAM, 4789 MB of available memory, 4789 MB of available page file. This is an informational message; no user action is required.
+2025-06-20T16:37:37.327548698Z  
+2025-06-20 16:37:37.51 Server      Using conventional memory in the memory manager.
+2025-06-20T16:37:37.328896708Z  
+2025-06-20 16:37:37.51 Server      Detected pause instruction latency: 27 cycles.
+2025-06-20T16:37:37.337933775Z  
+2025-06-20 16:37:37.52 Server      SQL Server detected the following NUMA node configuration (NUMA Node number 0, Processor Group number 0, CPU Mask 0x000000000000000f).
+2025-06-20T16:37:37.339374786Z  
+2025-06-20 16:37:37.53 Server      Page exclusion bitmap is enabled.
+2025-06-20T16:37:37.423259606Z  
+2025-06-20 16:37:37.63 Server      Buffer pool extension is not supported on Linux platform.
+2025-06-20T16:37:37.443899559Z  
+2025-06-20 16:37:37.66 Server      Buffer Pool: Allocating 8388608 bytes for 758387 hashPages.
+2025-06-20T16:37:37.989823997Z  
+2025-06-20 16:37:37.98 Server      Buffer pool extension is already disabled. No action is necessary.
+2025-06-20T16:37:39.693744320Z  
+2025-06-20 16:37:39.68 Server      Installing Client TLS certificates to the store.
+2025-06-20T16:37:39.739346958Z  
+2025-06-20 16:37:39.74 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
+2025-06-20T16:37:39.945948190Z  
+2025-06-20 16:37:39.99 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2025-06-20T16:37:40.042639407Z  
+2025-06-20 16:37:40.15 Server      Query Store settings initialized with enabled = 1,
+2025-06-20T16:37:40.075288549Z  
+2025-06-20 16:37:40.20 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2025-06-20T16:37:40.113403432Z  
+2025-06-20 16:37:40.24 Server      Node configuration: node 0: CPU mask: 0x000000000000000f:0 Active CPU mask: 0x000000000000000f:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2025-06-20T16:37:40.187362181Z  
+2025-06-20 16:37:40.33 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2025-06-20T16:37:40.282588488Z  
+2025-06-20 16:37:40.47 Server      In-Memory OLTP initialized on lowend machine.
+2025-06-20T16:37:40.343608141Z  
+2025-06-20 16:37:40.56 Server      CLR version v4.0.30319 loaded.
+2025-06-20T16:37:40.355124526Z  
+2025-06-20 16:37:40.57 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2025-06-20T16:37:40.372397555Z  
+2025-06-20 16:37:40.57 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2025-06-20T16:37:40.411999548Z  
+ForceFlush is enabled for this instance.
+2025-06-20T16:37:40.459836104Z  
+2025-06-20 16:37:40.57 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2025-06-20T16:37:40.482453971Z  
+2025-06-20 16:37:40.57 Server      clflush is selected for pmem flush operation.
+2025-06-20T16:37:40.491996942Z  
+2025-06-20 16:37:40.57 Server      Software Usage Metrics is disabled.
+2025-06-20T16:37:40.555803716Z  
+2025-06-20 16:37:40.57 spid20s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:40.562501566Z  
+2025-06-20 16:37:40.59 spid20s     Starting up database 'master'.
+2025-06-20T16:37:40.777050658Z  
+ForceFlush feature is enabled for log durability.
+2025-06-20T16:37:40.986542513Z  
+2025-06-20 16:37:41.14 spid20s     Converting database 'master' from version 927 to the current version 957.
+2025-06-20T16:37:40.993213162Z  
+2025-06-20 16:37:41.16 spid20s     Database 'master' running the upgrade step from version 927 to version 928.
+2025-06-20T16:37:41.092689901Z  
+2025-06-20 16:37:41.29 spid20s     Database 'master' running the upgrade step from version 928 to version 929.
+2025-06-20T16:37:41.149294922Z  
+2025-06-20 16:37:41.37 spid20s     Database 'master' running the upgrade step from version 929 to version 930.
+2025-06-20T16:37:41.181852064Z  
+2025-06-20 16:37:41.41 spid20s     Database 'master' running the upgrade step from version 930 to version 931.
+2025-06-20T16:37:41.209618770Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 931 to version 932.
+2025-06-20T16:37:41.229145315Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 932 to version 933.
+2025-06-20T16:37:41.248562660Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 933 to version 934.
+2025-06-20T16:37:41.267851603Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 934 to version 935.
+2025-06-20T16:37:41.324236622Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 935 to version 936.
+2025-06-20T16:37:41.338542028Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 936 to version 937.
+2025-06-20T16:37:41.355026551Z  
+2025-06-20 16:37:41.43 Server      Common language runtime (CLR) functionality initialized.
+2025-06-20T16:37:41.366151033Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 937 to version 938.
+2025-06-20T16:37:41.378319924Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 938 to version 939.
+2025-06-20T16:37:41.390533615Z  
+2025-06-20 16:37:41.45 spid20s     Database 'master' running the upgrade step from version 939 to version 940.
+2025-06-20T16:37:41.403766013Z  
+2025-06-20 16:37:41.46 spid20s     Database 'master' running the upgrade step from version 940 to version 941.
+2025-06-20T16:37:41.412638979Z  
+2025-06-20 16:37:41.47 spid20s     Database 'master' running the upgrade step from version 941 to version 942.
+2025-06-20T16:37:41.421832947Z  
+2025-06-20 16:37:41.48 spid20s     Database 'master' running the upgrade step from version 942 to version 943.
+2025-06-20T16:37:41.484399312Z  
+2025-06-20 16:37:41.57 spid20s     Database 'master' running the upgrade step from version 943 to version 944.
+2025-06-20T16:37:41.493452479Z  
+2025-06-20 16:37:41.59 spid20s     Database 'master' running the upgrade step from version 944 to version 945.
+2025-06-20T16:37:41.527131730Z  
+2025-06-20 16:37:41.62 spid20s     Database 'master' running the upgrade step from version 945 to version 946.
+2025-06-20T16:37:41.542669945Z  
+2025-06-20 16:37:41.65 spid20s     Database 'master' running the upgrade step from version 946 to version 947.
+2025-06-20T16:37:41.556688849Z  
+2025-06-20 16:37:41.66 spid20s     Database 'master' running the upgrade step from version 947 to version 948.
+2025-06-20T16:37:41.567098627Z  
+2025-06-20 16:37:41.68 spid20s     Database 'master' running the upgrade step from version 948 to version 949.
+2025-06-20T16:37:41.588347084Z  
+2025-06-20 16:37:41.71 spid20s     Database 'master' running the upgrade step from version 949 to version 950.
+2025-06-20T16:37:41.597590153Z  
+2025-06-20 16:37:41.72 spid20s     Database 'master' running the upgrade step from version 950 to version 951.
+2025-06-20T16:37:41.623878348Z  
+2025-06-20 16:37:41.76 spid20s     Database 'master' running the upgrade step from version 951 to version 952.
+2025-06-20T16:37:41.635270333Z  
+2025-06-20 16:37:41.77 spid20s     Database 'master' running the upgrade step from version 952 to version 953.
+2025-06-20T16:37:41.655290982Z  
+2025-06-20 16:37:41.80 spid20s     Database 'master' running the upgrade step from version 953 to version 954.
+2025-06-20T16:37:41.661479928Z  
+2025-06-20 16:37:41.81 spid20s     Database 'master' running the upgrade step from version 954 to version 955.
+2025-06-20T16:37:41.671030599Z  
+2025-06-20 16:37:41.82 spid20s     Database 'master' running the upgrade step from version 955 to version 956.
+2025-06-20T16:37:41.720205564Z  
+2025-06-20 16:37:41.89 spid20s     Database 'master' running the upgrade step from version 956 to version 957.
+2025-06-20T16:37:41.949893371Z  
+2025-06-20 16:37:42.18 spid22s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:41.952914993Z  
+2025-06-20 16:37:42.19 spid22s     Starting up database 'mssqlsystemresource'.
+2025-06-20T16:37:41.971991335Z  
+2025-06-20 16:37:42.19 spid29s     Password policy update was successful.
+2025-06-20T16:37:41.990215371Z  
+2025-06-20 16:37:42.19 spid22s     The resource database build version is 16.00.4195. This is an informational message only. No user action is required.
+2025-06-20T16:37:42.127019288Z  
+2025-06-20 16:37:42.19 spid20s     [32762]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:42.156343906Z  
+2025-06-20 16:37:42.19 spid22s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:42.156371806Z  
+2025-06-20 16:37:42.19 spid20s     Starting up database 'model_replicatedmaster'.
+2025-06-20T16:37:42.177429863Z  
+2025-06-20 16:37:42.22 spid22s     Starting up database 'model'.
+2025-06-20T16:37:42.526542360Z  
+2025-06-20 16:37:42.66 spid22s     Converting database 'model' from version 927 to the current version 957.
+2025-06-20T16:37:42.552549354Z  
+2025-06-20 16:37:42.71 spid22s     Database 'model' running the upgrade step from version 927 to version 928.
+2025-06-20T16:37:42.591170841Z  
+2025-06-20 16:37:42.76 spid22s     Database 'model' running the upgrade step from version 928 to version 929.
+2025-06-20T16:37:42.591198941Z  
+2025-06-20 16:37:42.79 spid20s     Converting database 'model_replicatedmaster' from version 927 to the current version 957.
+2025-06-20T16:37:42.607347861Z  
+2025-06-20 16:37:42.80 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 927 to version 928.
+2025-06-20T16:37:42.638681494Z  
+2025-06-20 16:37:42.84 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 928 to version 929.
+2025-06-20T16:37:42.705050788Z  
+2025-06-20 16:37:42.92 spid22s     Database 'model' running the upgrade step from version 929 to version 930.
+2025-06-20T16:37:42.764573931Z  
+2025-06-20 16:37:42.92 spid22s     Database 'model' running the upgrade step from version 930 to version 931.
+2025-06-20T16:37:42.813813397Z  
+2025-06-20 16:37:42.92 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 929 to version 930.
+2025-06-20T16:37:42.813843197Z  
+2025-06-20 16:37:42.92 spid22s     Database 'model' running the upgrade step from version 931 to version 932.
+2025-06-20T16:37:42.872570934Z  
+2025-06-20 16:37:42.92 spid22s     Database 'model' running the upgrade step from version 932 to version 933.
+2025-06-20T16:37:42.879156883Z  
+2025-06-20 16:37:42.92 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 930 to version 931.
+2025-06-20T16:37:42.915715155Z  
+2025-06-20 16:37:42.96 spid22s     Database 'model' running the upgrade step from version 933 to version 934.
+2025-06-20T16:37:42.918174573Z  
+2025-06-20 16:37:42.96 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 931 to version 932.
+2025-06-20T16:37:42.946878287Z  
+2025-06-20 16:37:43.01 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 932 to version 933.
+2025-06-20T16:37:42.963960814Z  
+2025-06-20 16:37:43.01 spid22s     Database 'model' running the upgrade step from version 934 to version 935.
+2025-06-20T16:37:43.006014126Z  
+2025-06-20 16:37:43.06 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 933 to version 934.
+2025-06-20T16:37:43.011142865Z  
+2025-06-20 16:37:43.06 spid22s     Database 'model' running the upgrade step from version 935 to version 936.
+2025-06-20T16:37:43.030294907Z  
+2025-06-20 16:37:43.12 spid22s     Database 'model' running the upgrade step from version 936 to version 937.
+2025-06-20T16:37:43.030327307Z  
+2025-06-20 16:37:43.12 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 934 to version 935.
+2025-06-20T16:37:43.051169163Z  
+2025-06-20 16:37:43.14 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 935 to version 936.
+2025-06-20T16:37:43.053318879Z  
+2025-06-20 16:37:43.14 spid22s     Database 'model' running the upgrade step from version 937 to version 938.
+2025-06-20T16:37:43.096448600Z  
+2025-06-20 16:37:43.18 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 936 to version 937.
+2025-06-20T16:37:43.096476000Z  
+2025-06-20 16:37:43.21 spid22s     Database 'model' running the upgrade step from version 938 to version 939.
+2025-06-20T16:37:43.152953320Z  
+2025-06-20 16:37:43.24 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 937 to version 938.
+2025-06-20T16:37:43.152979521Z  
+2025-06-20 16:37:43.26 spid22s     Database 'model' running the upgrade step from version 939 to version 940.
+2025-06-20T16:37:43.165986117Z  
+2025-06-20 16:37:43.31 spid22s     Database 'model' running the upgrade step from version 940 to version 941.
+2025-06-20T16:37:43.207844029Z  
+2025-06-20 16:37:43.32 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 938 to version 939.
+2025-06-20T16:37:43.234969631Z  
+2025-06-20 16:37:43.34 spid22s     Database 'model' running the upgrade step from version 941 to version 942.
+2025-06-20T16:37:43.272580311Z  
+2025-06-20 16:37:43.40 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 939 to version 940.
+2025-06-20T16:37:43.283175190Z  
+2025-06-20 16:37:43.46 spid22s     Database 'model' running the upgrade step from version 942 to version 943.
+2025-06-20T16:37:43.313150613Z  
+2025-06-20 16:37:43.47 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 940 to version 941.
+2025-06-20T16:37:43.373747164Z  
+2025-06-20 16:37:43.55 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 941 to version 942.
+2025-06-20T16:37:43.373787765Z  
+2025-06-20 16:37:43.59 spid22s     Database 'model' running the upgrade step from version 943 to version 944.
+2025-06-20T16:37:43.392054701Z  
+2025-06-20 16:37:43.60 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 942 to version 943.
+2025-06-20T16:37:43.410501638Z  
+2025-06-20 16:37:43.61 spid22s     Database 'model' running the upgrade step from version 944 to version 945.
+2025-06-20T16:37:43.449164426Z  
+2025-06-20 16:37:43.67 spid22s     Database 'model' running the upgrade step from version 945 to version 946.
+2025-06-20T16:37:43.471377391Z  
+2025-06-20 16:37:43.70 spid22s     Database 'model' running the upgrade step from version 946 to version 947.
+2025-06-20T16:37:43.506789155Z  
+2025-06-20 16:37:43.70 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 943 to version 944.
+2025-06-20T16:37:43.529394923Z  
+2025-06-20 16:37:43.70 spid22s     Database 'model' running the upgrade step from version 947 to version 948.
+2025-06-20T16:37:43.577535682Z  
+2025-06-20 16:37:43.70 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 944 to version 945.
+2025-06-20T16:37:43.577560982Z  
+2025-06-20 16:37:43.70 spid22s     Database 'model' running the upgrade step from version 948 to version 949.
+2025-06-20T16:37:43.634978809Z  
+2025-06-20 16:37:43.70 spid22s     Database 'model' running the upgrade step from version 949 to version 950.
+2025-06-20T16:37:43.662503414Z  
+2025-06-20 16:37:43.70 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 945 to version 946.
+2025-06-20T16:37:43.691828733Z  
+2025-06-20 16:37:43.73 spid22s     Database 'model' running the upgrade step from version 950 to version 951.
+2025-06-20T16:37:43.737152170Z  
+2025-06-20 16:37:43.80 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 946 to version 947.
+2025-06-20T16:37:43.753045188Z  
+2025-06-20 16:37:43.80 spid22s     Database 'model' running the upgrade step from version 951 to version 952.
+2025-06-20T16:37:43.754778601Z  
+2025-06-20 16:37:43.81 Server      External governance manager initialized
+2025-06-20T16:37:43.775257554Z  
+2025-06-20 16:37:43.86 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 947 to version 948.
+2025-06-20T16:37:43.790284066Z  
+2025-06-20 16:37:43.88 spid22s     Database 'model' running the upgrade step from version 952 to version 953.
+2025-06-20T16:37:43.801935552Z  
+2025-06-20 16:37:43.89 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 948 to version 949.
+2025-06-20T16:37:43.819069280Z  
+2025-06-20 16:37:43.92 spid22s     Database 'model' running the upgrade step from version 953 to version 954.
+2025-06-20T16:37:43.821723100Z  
+2025-06-20 16:37:43.92 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 949 to version 950.
+2025-06-20T16:37:43.835204500Z  
+2025-06-20 16:37:43.94 spid22s     Database 'model' running the upgrade step from version 954 to version 955.
+2025-06-20T16:37:43.844380268Z  
+2025-06-20 16:37:43.95 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 950 to version 951.
+2025-06-20T16:37:43.847893295Z  
+2025-06-20 16:37:43.97 spid22s     Database 'model' running the upgrade step from version 955 to version 956.
+2025-06-20T16:37:43.887524890Z  
+2025-06-20 16:37:44.01 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 951 to version 952.
+2025-06-20T16:37:43.893216432Z  
+2025-06-20 16:37:44.01 spid22s     Database 'model' running the upgrade step from version 956 to version 957.
+2025-06-20T16:37:43.899412878Z  
+2025-06-20 16:37:44.04 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 952 to version 953.
+2025-06-20T16:37:43.935493747Z  
+2025-06-20 16:37:44.08 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 953 to version 954.
+2025-06-20T16:37:43.944407713Z  
+2025-06-20 16:37:44.09 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 954 to version 955.
+2025-06-20T16:37:43.955455495Z  
+2025-06-20 16:37:44.10 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 955 to version 956.
+2025-06-20T16:37:44.002498346Z  
+2025-06-20 16:37:44.16 spid20s     Database 'model_replicatedmaster' running the upgrade step from version 956 to version 957.
+2025-06-20T16:37:44.176665244Z  
+2025-06-20 16:37:44.40 spid20s     [32761]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:44.185275808Z  
+2025-06-20 16:37:44.41 spid20s     Starting up database 'model_msdb'.
+2025-06-20T16:37:44.404265740Z  
+2025-06-20 16:37:44.43 spid20s     Converting database 'model_msdb' from version 927 to the current version 957.
+2025-06-20T16:37:44.409076776Z  
+2025-06-20 16:37:44.44 spid20s     Database 'model_msdb' running the upgrade step from version 927 to version 928.
+2025-06-20T16:37:44.418934950Z  
+2025-06-20 16:37:44.46 spid20s     Database 'model_msdb' running the upgrade step from version 928 to version 929.
+2025-06-20T16:37:44.488538668Z  
+2025-06-20 16:37:44.55 spid20s     Database 'model_msdb' running the upgrade step from version 929 to version 930.
+2025-06-20T16:37:44.517406984Z  
+2025-06-20 16:37:44.59 spid20s     Database 'model_msdb' running the upgrade step from version 930 to version 931.
+2025-06-20T16:37:44.526054248Z  
+2025-06-20 16:37:44.60 spid20s     Database 'model_msdb' running the upgrade step from version 931 to version 932.
+2025-06-20T16:37:44.536014522Z  
+2025-06-20 16:37:44.61 spid20s     Database 'model_msdb' running the upgrade step from version 932 to version 933.
+2025-06-20T16:37:44.563819630Z  
+2025-06-20 16:37:44.64 spid20s     Database 'model_msdb' running the upgrade step from version 933 to version 934.
+2025-06-20T16:37:44.586308797Z  
+2025-06-20 16:37:44.68 spid20s     Database 'model_msdb' running the upgrade step from version 934 to version 935.
+2025-06-20T16:37:44.593465851Z  
+2025-06-20 16:37:44.69 spid20s     Database 'model_msdb' running the upgrade step from version 935 to version 936.
+2025-06-20T16:37:44.602237716Z  
+2025-06-20 16:37:44.70 spid20s     Database 'model_msdb' running the upgrade step from version 936 to version 937.
+2025-06-20T16:37:44.607269653Z  
+2025-06-20 16:37:44.71 spid20s     Database 'model_msdb' running the upgrade step from version 937 to version 938.
+2025-06-20T16:37:44.618257635Z  
+2025-06-20 16:37:44.72 spid20s     Database 'model_msdb' running the upgrade step from version 938 to version 939.
+2025-06-20T16:37:44.626451096Z  
+2025-06-20 16:37:44.74 spid20s     Database 'model_msdb' running the upgrade step from version 939 to version 940.
+2025-06-20T16:37:44.633554149Z  
+2025-06-20 16:37:44.74 spid20s     Database 'model_msdb' running the upgrade step from version 940 to version 941.
+2025-06-20T16:37:44.642751118Z  
+2025-06-20 16:37:44.75 spid20s     Database 'model_msdb' running the upgrade step from version 941 to version 942.
+2025-06-20T16:37:44.651111380Z  
+2025-06-20 16:37:44.76 spid20s     Database 'model_msdb' running the upgrade step from version 942 to version 943.
+2025-06-20T16:37:44.702655464Z  
+2025-06-20 16:37:44.84 spid20s     Database 'model_msdb' running the upgrade step from version 943 to version 944.
+2025-06-20T16:37:44.712984441Z  
+2025-06-20 16:37:44.85 spid20s     Database 'model_msdb' running the upgrade step from version 944 to version 945.
+2025-06-20T16:37:44.741819556Z  
+2025-06-20 16:37:44.89 spid20s     Database 'model_msdb' running the upgrade step from version 945 to version 946.
+2025-06-20T16:37:44.753019640Z  
+2025-06-20 16:37:44.90 spid20s     Database 'model_msdb' running the upgrade step from version 946 to version 947.
+2025-06-20T16:37:44.769098860Z  
+2025-06-20 16:37:44.92 spid20s     Database 'model_msdb' running the upgrade step from version 947 to version 948.
+2025-06-20T16:37:44.778509130Z  
+2025-06-20 16:37:44.93 spid20s     Database 'model_msdb' running the upgrade step from version 948 to version 949.
+2025-06-20T16:37:44.791421426Z  
+2025-06-20 16:37:44.95 spid20s     Database 'model_msdb' running the upgrade step from version 949 to version 950.
+2025-06-20T16:37:44.811817678Z  
+2025-06-20 16:37:44.98 spid20s     Database 'model_msdb' running the upgrade step from version 950 to version 951.
+2025-06-20T16:37:44.846726438Z  
+2025-06-20 16:37:45.02 spid20s     Database 'model_msdb' running the upgrade step from version 951 to version 952.
+2025-06-20T16:37:44.851717275Z  
+2025-06-20 16:37:45.04 spid20s     Database 'model_msdb' running the upgrade step from version 952 to version 953.
+2025-06-20T16:37:44.874880448Z  
+2025-06-20 16:37:45.06 spid20s     Database 'model_msdb' running the upgrade step from version 953 to version 954.
+2025-06-20T16:37:44.879629584Z  
+2025-06-20 16:37:45.07 spid20s     Database 'model_msdb' running the upgrade step from version 954 to version 955.
+2025-06-20T16:37:44.887213740Z  
+2025-06-20 16:37:45.08 spid20s     Database 'model_msdb' running the upgrade step from version 955 to version 956.
+2025-06-20T16:37:44.940221235Z  
+2025-06-20 16:37:45.15 spid20s     Database 'model_msdb' running the upgrade step from version 956 to version 957.
+2025-06-20T16:37:45.047636536Z  
+2025-06-20 16:37:45.19 spid20s     Resource governor reconfiguration succeeded.
+2025-06-20T16:37:45.067085781Z  
+2025-06-20 16:37:45.19 spid35s     Attribute synchronization initialized
+2025-06-20T16:37:45.079414373Z  
+2025-06-20 16:37:45.19 spid35s     Attribute synchronization manager initialized
+2025-06-20T16:37:45.079434073Z  
+2025-06-20 16:37:45.19 spid20s     SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2025-06-20T16:37:45.079443874Z  
+2025-06-20 16:37:45.19 spid20s     SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2025-06-20T16:37:45.162469993Z  
+2025-06-20 16:37:45.19 spid20s     SQL Trace ID 1 was started by login "sa".
+2025-06-20T16:37:45.203670101Z  
+2025-06-20 16:37:45.21 spid20s     Server name is '87ada9c2d7cc'. This is an informational message only. No user action is required.
+2025-06-20T16:37:45.290914352Z  
+2025-06-20 16:37:45.37 spid22s     Clearing tempdb database.
+2025-06-20T16:37:45.302635939Z  
+2025-06-20 16:37:45.37 spid59s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2025-06-20T16:37:45.304052850Z  
+2025-06-20 16:37:45.37 spid57s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:45.328569333Z  
+2025-06-20 16:37:45.38 spid32s     ERROR: Unable to set system administrator password: Password validation failed. The password does not meet SQL Server password policy requirements because it is not complex enough. The password must be at least 8 characters long and contain characters from three of the following four sets: Uppercase letters, Lowercase letters, Base 10 digits, and Symbols..
+2025-06-20T16:37:45.328595833Z  
+2025-06-20 16:37:45.40 spid57s     Starting up database 'msdb'.
+2025-06-20T16:37:45.328601033Z  
+2025-06-20 16:37:45.42 spid32s     An error occurred during server setup. See previous errors for more information.
+2025-06-20T16:37:45.348353480Z  
+2025-06-20 16:37:45.42 spid59s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2025-06-20T16:37:45.360250969Z  
+2025-06-20 16:37:45.45 spid32s     SQL Trace was stopped due to server shutdown. Trace ID = '1'. This is an informational message only; no user action is required.
+2025-06-20T16:37:28.396887467Z  SQL Server 2022 will run as non-root by default.
+2025-06-20T16:37:28.397895574Z  This container is running as user mssql.
+2025-06-20T16:37:28.397912674Z  To learn more visit https://go.microsoft.com/fwlink/?linkid=2099216.
+2025-06-20T16:37:36.854425400Z  2025-06-20 16:37:36.75 Server      Setup step is copying system data file 'C:\templatedata\master.mdf' to '/var/opt/mssql/data/master.mdf'.
+2025-06-20T16:37:36.884562023Z  
+2025-06-20 16:37:36.91 Server      Did not find an existing master data file /var/opt/mssql/data/master.mdf, copying the missing default master and other system database files. If you have moved the database location, but not moved the database files, startup may fail. To repair: shutdown SQL Server, move the master database to configured location, and restart.
+2025-06-20T16:37:36.892843784Z  
+2025-06-20 16:37:36.92 Server      Setup step is copying system data file 'C:\templatedata\mastlog.ldf' to '/var/opt/mssql/data/mastlog.ldf'.
+2025-06-20T16:37:36.902784057Z  
+2025-06-20 16:37:36.94 Server      Setup step is copying system data file 'C:\templatedata\model.mdf' to '/var/opt/mssql/data/model.mdf'.
+2025-06-20T16:37:36.933761286Z  
+2025-06-20 16:37:36.98 Server      Setup step is copying system data file 'C:\templatedata\modellog.ldf' to '/var/opt/mssql/data/modellog.ldf'.
+2025-06-20T16:37:36.968874345Z  
+2025-06-20 16:37:37.02 Server      Setup step is copying system data file 'C:\templatedata\msdbdata.mdf' to '/var/opt/mssql/data/msdbdata.mdf'.
+2025-06-20T16:37:37.041188080Z  
+2025-06-20 16:37:37.13 Server      Setup step is copying system data file 'C:\templatedata\msdblog.ldf' to '/var/opt/mssql/data/msdblog.ldf'.
+2025-06-20T16:37:37.050803751Z  
+2025-06-20 16:37:37.14 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_replicatedmaster.mdf' to '/var/opt/mssql/data/model_replicatedmaster.mdf'.
+2025-06-20T16:37:37.073661320Z  
+2025-06-20 16:37:37.16 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_replicatedmaster.ldf' to '/var/opt/mssql/data/model_replicatedmaster.ldf'.
+2025-06-20T16:37:37.123962792Z  
+2025-06-20 16:37:37.23 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_msdbdata.mdf' to '/var/opt/mssql/data/model_msdbdata.mdf'.
+2025-06-20T16:37:37.172085348Z  
+2025-06-20 16:37:37.29 Server      Setup step is FORCE copying system data file 'C:\templatedata\model_msdblog.ldf' to '/var/opt/mssql/data/model_msdblog.ldf'.
+2025-06-20T16:37:37.272593392Z  
+2025-06-20 16:37:37.44 Server      Microsoft SQL Server 2022 (RTM-CU19) (KB5054531) - 16.0.4195.2 (X64)
+2025-06-20T16:37:37.273141196Z  
+	Apr 18 2025 13:42:14
+2025-06-20T16:37:37.273655199Z  
+	Copyright (C) 2022 Microsoft Corporation
+2025-06-20T16:37:37.279207641Z  
+	Developer Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>
+2025-06-20T16:37:37.280843553Z  
+2025-06-20 16:37:37.45 Server      UTC adjustment: 0:00
+2025-06-20T16:37:37.282512165Z  
+2025-06-20 16:37:37.45 Server      (c) Microsoft Corporation.
+2025-06-20T16:37:37.282902268Z  
+2025-06-20 16:37:37.45 Server      All rights reserved.
+2025-06-20T16:37:37.289055313Z  
+2025-06-20 16:37:37.46 Server      Server process ID is 436.
+2025-06-20T16:37:37.290663525Z  
+2025-06-20 16:37:37.46 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2025-06-20T16:37:37.292140336Z  
+2025-06-20 16:37:37.47 Server      Registry startup parameters:
+2025-06-20T16:37:37.298276282Z  
+	 -d /var/opt/mssql/data/master.mdf
+2025-06-20T16:37:37.298813186Z  
+	 -l /var/opt/mssql/data/mastlog.ldf
+2025-06-20T16:37:37.299197288Z  
+	 -e /var/opt/mssql/log/errorlog
+2025-06-20T16:37:37.312255185Z  
+2025-06-20 16:37:37.49 Server      SQL Server detected 1 sockets with 4 cores per socket and 4 logical processors per socket, 4 total logical processors; using 4 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2025-06-20T16:37:37.318248629Z  
+2025-06-20 16:37:37.49 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2025-06-20T16:37:37.320573547Z  
+2025-06-20 16:37:37.50 Server      Detected 6106 MB of RAM, 4789 MB of available memory, 4789 MB of available page file. This is an informational message; no user action is required.
+2025-06-20T16:37:37.327548698Z  
+2025-06-20 16:37:37.51 Server      Using conventional memory in the memory manager.
+2025-06-20T16:37:37.328896708Z  
+2025-06-20 16:37:37.51 Server      Detected pause instruction latency: 27 cycles.
+2025-06-20T16:37:37.337933775Z  
+2025-06-20 16:37:37.52 Server      SQL Server detected the following NUMA node configuration (NUMA Node number 0, Processor Group number 0, CPU Mask 0x000000000000000f).
+2025-06-20T16:37:37.339374786Z  
+2025-06-20 16:37:37.53 Server      Page exclusion bitmap is enabled.
+2025-06-20T16:37:37.423259606Z  
+2025-06-20 16:37:37.63 Server      Buffer pool extension is not supported on Linux platform.
+2025-06-20T16:37:37.443899559Z  
+2025-06-20 16:37:37.66 Server      Buffer Pool: Allocating 8388608 bytes for 758387 hashPages.
+2025-06-20T16:37:37.989823997Z  
+2025-06-20 16:37:37.98 Server      Buffer pool extension is already disabled. No action is necessary.
+2025-06-20T16:37:39.693744320Z  
+2025-06-20 16:37:39.68 Server      Installing Client TLS certificates to the store.
+2025-06-20T16:37:39.739346958Z  
+2025-06-20 16:37:39.74 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
+2025-06-20T16:37:39.945948190Z  
+2025-06-20 16:37:39.99 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2025-06-20T16:37:40.042639407Z  
+2025-06-20 16:37:40.15 Server      Query Store settings initialized with enabled = 1,
+2025-06-20T16:37:40.075288549Z  
+2025-06-20 16:37:40.20 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2025-06-20T16:37:40.113403432Z  
+2025-06-20 16:37:40.24 Server      Node configuration: node 0: CPU mask: 0x000000000000000f:0 Active CPU mask: 0x000000000000000f:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2025-06-20T16:37:40.187362181Z  
+2025-06-20 16:37:40.33 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2025-06-20T16:37:40.282588488Z  
+2025-06-20 16:37:40.47 Server      In-Memory OLTP initialized on lowend machine.
+2025-06-20T16:37:40.343608141Z  
+2025-06-20 16:37:40.56 Server      CLR version v4.0.30319 loaded.
+2025-06-20T16:37:40.355124526Z  
+2025-06-20 16:37:40.57 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2025-06-20T16:37:40.372397555Z  
+2025-06-20 16:37:40.57 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2025-06-20T16:37:40.411999548Z  
+ForceFlush is enabled for this instance.
+2025-06-20T16:37:40.459836104Z  
+2025-06-20 16:37:40.57 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2025-06-20T16:37:40.482453971Z  
+2025-06-20 16:37:40.57 Server      clflush is selected for pmem flush operation.
+2025-06-20T16:37:40.491996942Z  
+2025-06-20 16:37:40.57 Server      Software Usage Metrics is disabled.
+2025-06-20T16:37:40.555803716Z  
+2025-06-20 16:37:40.57 spid20s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:40.562501566Z  
+2025-06-20 16:37:40.59 spid20s     Starting up database 'master'.
+2025-06-20T16:37:40.777050658Z  
+ForceFlush feature is enabled for log durability.
+2025-06-20T16:37:40.986542513Z  
+2025-06-20 16:37:41.14 spid20s     Converting database 'master' from version 927 to the current version 957.
+2025-06-20T16:37:40.993213162Z  
+2025-06-20 16:37:41.16 spid20s     Database 'master' running the upgrade step from version 927 to version 928.
+2025-06-20T16:37:41.092689901Z  
+2025-06-20 16:37:41.29 spid20s     Database 'master' running the upgrade step from version 928 to version 929.
+2025-06-20T16:37:41.149294922Z  
+2025-06-20 16:37:41.37 spid20s     Database 'master' running the upgrade step from version 929 to version 930.
+2025-06-20T16:37:41.181852064Z  
+2025-06-20 16:37:41.41 spid20s     Database 'master' running the upgrade step from version 930 to version 931.
+2025-06-20T16:37:41.209618770Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 931 to version 932.
+2025-06-20T16:37:41.229145315Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 932 to version 933.
+2025-06-20T16:37:41.248562660Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 933 to version 934.
+2025-06-20T16:37:41.267851603Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 934 to version 935.
+2025-06-20T16:37:41.324236622Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 935 to version 936.
+2025-06-20T16:37:41.338542028Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 936 to version 937.
+2025-06-20T16:37:41.355026551Z  
+2025-06-20 16:37:41.43 Server      Common language runtime (CLR) functionality initialized.
+2025-06-20T16:37:41.366151033Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 937 to version 938.
+2025-06-20T16:37:41.378319924Z  
+2025-06-20 16:37:41.43 spid20s     Database 'master' running the upgrade step from version 938 to version 939.
+2025-06-20T16:37:41.390533615Z  
+2025-06-20 16:37:41.45 spid20s     Database 'master' running the upgrade step from version 939 to version 940.
+2025-06-20T16:37:41.403766013Z  
+2025-06-20 16:37:41.46 spid20s     Database 'master' running the upgrade step from version 940 to version 941.
+2025-06-20T16:37:41.412638979Z  
+2025-06-20 16:37:41.47 spid20s     Database 'master' running the upgrade step from version 941 to version 942.
+2025-06-20T16:37:41.421832947Z  
+2025-06-20 16:37:41.48 spid20s     Database 'master' running the upgrade step from version 942 to version 943.
+2025-06-20T16:37:41.484399312Z  
+2025-06-20 16:37:41.57 spid20s     Database 'master' running the upgrade step from version 943 to version 944.
+2025-06-20T16:37:41.493452479Z  
+2025-06-20 16:37:41.59 spid20s     Database 'master' running the upgrade step from version 944 to version 945.
+2025-06-20T16:37:41.527131730Z  
+2025-06-20 16:37:41.62 spid20s     Database 'master' running the upgrade step from version 945 to version 946.
+2025-06-20T16:37:41.542669945Z  
+2025-06-20 16:37:41.65 spid20s     Database 'master' running the upgrade step from version 946 to version 947.
+2025-06-20T16:37:41.556688849Z  
+2025-06-20 16:37:41.66 spid20s     Database 'master' running the upgrade step from version 947 to version 948.
+2025-06-20T16:37:41.567098627Z  
+2025-06-20 16:37:41.68 spid20s     Database 'master' running the upgrade step from version 948 to version 949.
+2025-06-20T16:37:41.588347084Z  
+2025-06-20 16:37:41.71 spid20s     Database 'master' running the upgrade step from version 949 to version 950.
+2025-06-20T16:37:41.597590153Z  
+2025-06-20 16:37:41.72 spid20s     Database 'master' running the upgrade step from version 950 to version 951.
+2025-06-20T16:37:41.623878348Z  
+2025-06-20 16:37:41.76 spid20s     Database 'master' running the upgrade step from version 951 to version 952.
+2025-06-20T16:37:41.635270333Z  
+2025-06-20 16:37:41.77 spid20s     Database 'master' running the upgrade step from version 952 to version 953.
+2025-06-20T16:37:41.655290982Z  
+2025-06-20 16:37:41.80 spid20s     Database 'master' running the upgrade step from version 953 to version 954.
+2025-06-20T16:37:41.661479928Z  
+2025-06-20 16:37:41.81 spid20s     Database 'master' running the upgrade step from version 954 to version 955.
+2025-06-20T16:37:41.671030599Z  
+2025-06-20 16:37:41.82 spid20s     Database 'master' running the upgrade step from version 955 to version 956.
+2025-06-20T16:37:41.720205564Z  
+2025-06-20 16:37:41.89 spid20s     Database 'master' running the upgrade step from version 956 to version 957.
+2025-06-20T16:37:41.949893371Z  
+2025-06-20 16:37:42.18 spid22s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:41.952914993Z  
+2025-06-20 16:37:42.19 spid22s     Starting up database 'mssqlsystemresource'.
+2025-06-20T16:37:41.971991335Z  
+2025-06-20 16:37:42.19 spid29s     Password policy update was successful.
+2025-06-20T16:37:41.990215371Z  
+2025-06-20 16:37:42.19 spid22s     The resource database build version is 16.00.4195. This is an informational message only. No user action is required.
+2025-06-20T16:37:42.127019288Z  
+2025-06-20 16:37:42.19 spid20s     [32762]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:42.156343906Z  
+2025-06-20 16:37:42.19 spid22s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-06-20T16:37:42.156371806Z  
+2025-06-20 16:37:42.19 spid20s     Starting up database 'model_replicatedmaster'.
